@@ -75,6 +75,7 @@ INSERT INTO todos (title, user_id) VALUES
 ('Test API', 1);
 
 Auth API:
+
 POST /api/auth/signup
 json
 {
@@ -95,9 +96,8 @@ json
 }
 
 Todos API (Requires JWT Token in Header)
-Header:
 
-makefile
+Header:
 Authorization: Bearer <your_token>
 
 GET /api/todos
