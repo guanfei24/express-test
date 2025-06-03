@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files
+.env
+.env.*.local
+
+# Optional log files
+logs/
+*.log
+log.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Build output (if any)
+dist/
+build/
+
+# MySQL dump files
+*.sql
+
+# Optional: compiled binaries or cache
+*.out
+*.pid
+*.seed
+.cache/
